@@ -1,28 +1,48 @@
-# Self-Service IT Portal
+# Secure Landing Zone (Azure)
 
 ## Overview
 
-This project aims to build a **Self-Service IT Portal** that allows end users to resolve common IT issues and fulfill requests without direct IT intervention. The goal is to automate repetitive tasks, reduce ticket volume, and improve the overall IT experience across the organization.
+This project will implement a **Secure Landing Zone (SLZ)** in Microsoft Azure using Infrastructure as Code (IaC). The purpose of this SLZ is to establish a secure, scalable, and policy-compliant foundation for future cloud workloads, following Microsoft's Cloud Adoption Framework (CAF) principles.
 
-The portal will eventually support:
+> **Note:** This project is currently in the **planning phase**. Development has not started yet.
 
-- Authentication and role-based access control  
-- A dynamic service catalog (e.g., password resets, access requests)  
-- Automation via scripting and APIs  
-- Integration with ticketing systems  
-- Basic analytics and dashboards
+---
 
-## Goals & What I Hope to Learn
+## 🎯 Goals
 
-This project will help me strengthen my skills in:
+As part of this project, I aim to:
 
-- Cloud infrastructure (primarily Azure)
-- Automation using PowerShell, Terraform, and REST APIs
-- Frontend and backend integration for internal tools
-- CI/CD and infrastructure-as-code (IaC) best practices
-- Building maintainable and scalable internal IT solutions
+- Build an enterprise-grade Azure environment using Terraform
+- Learn and apply governance tools like Management Groups, Azure Policy, and RBAC
+- Set up core infrastructure services: networking, identity, logging, monitoring, and security
+- Practice automating secure cloud deployments for long-term scalability
+
+---
+
+## How This Connects to the Cloud Resume Challenge
+
+This SLZ will act as the **foundation layer** for my [Cloud Resume Challenge](https://github.com/KhamkeoQuest/cloud-resume-challenge) project.
+
+Once complete, the resume site and backend API will be deployed into this environment, benefiting from:
+- Enforced security and tagging policies
+- Centralized logging and monitoring
+- Isolated dev/stage/prod environments
+- Scalable and cost-managed infrastructure
+
+This integration will demonstrate how cloud applications can be securely deployed and managed in real-world enterprise-style environments.
+
+---
 
 ## Status
 
-**This project is in the planning phase.**  
-I'm currently wrapping up another project and will begin work on this soon. In the meantime, I’m sharing the repo to track ideas, gather feedback, and outline a roadmap.
+- [x] Idea and planning
+- [ ] Architecture design
+- [ ] Terraform module setup
+- [ ] Core service deployment
+- [ ] Integration with Cloud Resume Challenge
+
+---
+
+## 📎 Notes
+
+This project is a learning initiative intended to grow my cloud infrastructure, security, and DevOps skillset. Contributions, suggestions, and feedback are welcome as I progress through the build.
